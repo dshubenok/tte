@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     Transaction {
         int id PK
@@ -88,3 +89,4 @@ erDiagram
     Account ||--o{ QrCode : ""
     Account ||--o{ EventLog : ""
     QrCode ||--o{ EventLog : ""
+```
